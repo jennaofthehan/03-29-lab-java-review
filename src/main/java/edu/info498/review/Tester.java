@@ -11,5 +11,16 @@ public class Tester {
 		Dog dog = new Dog();
 		dog.bark();
 		dog.walk();
+
+        Dog[] pups = Dog.createPuppies(3);
+        System.out.println(Arrays.toString(pups)); 
+
+        Husky dubs = new Husky("dubs");
+        dubs.bark();
+        dubs.pullSled();
+        dubs.hug();
+
+        TeddyBear baby = new TeddyBear();
+        baby.hug();
 	}
 }
